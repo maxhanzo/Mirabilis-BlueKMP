@@ -1,0 +1,8 @@
+framework module "hardware" {
+    umbrella header "hardware.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
